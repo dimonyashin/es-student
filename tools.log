@@ -1,0 +1,16 @@
+﻿git version 2.55.0.windows.5
+Python 3.14.7
+cmake version 4.4.3
+GNU Make 3.81
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 15.3.1 20260627
+code 1.137.0
+picotool : Имя "picotool" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьт
+е правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:7 знак:5
++     picotool version | Select-Object -First 1
++     ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (picotool:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pico-sdk 2.3.0
+PICO_SDK_PATH="C:\Repositories\pico\pico-sdk"
