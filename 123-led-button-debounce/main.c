@@ -9,9 +9,9 @@ const uint DEBOUNCE_MS = 20;
 
 bool get_button_debounce(uint pin)
 {
-    bool state = gpio_get(pin)
-    sleep_ms(DEBOUNCE_MS)
-    return state && gpio_get(pin)
+    bool state = gpio_get(pin);
+    sleep_ms(DEBOUNCE_MS);
+    return state && gpio_get(pin);
 }
 
 int main()
